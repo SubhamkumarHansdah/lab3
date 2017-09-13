@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+/*Program to find maximum of two numbers*/
+
+int main()
+{
+  float a=0,b=0;
+  cout<<"Program to find maximum of two numbers";
+  cout<<"\n \nEnter two different numbers: ";
+  cin>>a>>b;
+  cout<<"\nThe greater number is: "<<((a>b)?a:b);
+  return 0;
+}echo "# lab3" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/SubhamkumarHansdah/lab3.git
+git push -u origin master
